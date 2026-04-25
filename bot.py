@@ -2,7 +2,8 @@ import random
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = "8618113338:AAHc_LBBdvat3jZ3-KIxYyYnfxGrWvar70Q"
+import os
+TOKEN = os.getenv("8618113338:AAHc_LBBdvat3jZ3-KIxYyYnfxGrWvar70Q")
 
 # -------- DYNAMIC CONTENT ENGINE -------- #
 categories = {
